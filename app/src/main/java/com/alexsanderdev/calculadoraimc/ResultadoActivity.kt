@@ -32,8 +32,9 @@ class ResultadoActivity : AppCompatActivity() {
                 imc < 18.5 -> getString(R.string.low_weight)
                 imc in 18.5..24.9 -> getString(R.string.normal_weight)
                 imc in 25.0..29.9 -> getString(R.string.overweight)
-                imc in 30.0..39.9 -> getString(R.string.obese_class)
-                else -> getString(R.string.obese_class)
+                imc in 30.0..34.9 -> getString(R.string.obese_class_1)
+                imc in 35.0..39.9 -> getString(R.string.obese_class_2)
+                else -> getString(R.string.obese_class_3)
             })
         }
     }

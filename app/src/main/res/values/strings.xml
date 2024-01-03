@@ -10,10 +10,12 @@
     <string name="reportedHeight">Altura informada: %1$s</string>
     <string name="error_weight">Digite o seu peso</string>
     <string name="error_height">Digite a sua altura</string>
-    <string name="low_weight">Baixo Peso!</string>
-    <string name="normal_weight">Peso Normal</string>
-    <string name="overweight">Sobrepeso</string>
-    <string name="obese_class">Obesidade</string>
+    <string name="low_weight"><![CDATA[Magreza! < 54.1 Kg]]></string>
+    <string name="normal_weight"><![CDATA[Normal! 54.1 a 72.8 Kg]]></string>
+    <string name="overweight"><![CDATA[Sobrepeso! 72.8 a 87.7 Kg]]></string>
+    <string name="obese_class_1"><![CDATA[Obesidade! > 87.7 Kg]]></string>
     <string name="imc_result">IMC: %d \n - \n %s</string>
-    <string name="note">O cálculo de IMC não leva em consideração o sexo, idade e a composição corporal. Por esse motivo, pessoas com muita massa muscular, como é o caso de alguns atletas, podem apresentar um IMC acima do normal. O ideal é consultar um nutricionista para fazer uma avaliação mais detalhada.</string>
+    <string name="note">O cálculo de IMC não considera o sexo, idade e a composição corporal. Por esse motivo, pessoas com muita massa muscular, como alguns atletas, podem apresentar um IMC acima do normal. O ideal é consultar um nutricionista para fazer uma avaliação mais detalhada.</string>
+    <string name="obese_class_2">Obesidade grau II</string>
+    <string name="obese_class_3">Obesidade grau III</string>
 </resources>
